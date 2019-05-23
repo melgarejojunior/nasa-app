@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Nasa App</string>
+    <string name="main_activity_title">Nasa APP</string>
+    <string name="curiosity_rover_name">Curiosity</string>
+    <string name="main_activity_description">Escolha um rover para ver as fotos tiradas por ele em Marte:</string>
+    <string name="opportunity_rover_name">Opportunity</string>
+    <string name="spirit_rover_name">Spirit</string>
+    <string name="error_request">Deu ruim aqui!!</string>
+</resources>

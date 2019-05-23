@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        <ImageView
+                android:id="@+id/photo"
+                android:layout_width="256dp"
+                android:layout_height="256dp"
+                android:src="@android:drawable/ic_menu_report_image"/>
+    </LinearLayout>
+</layout>

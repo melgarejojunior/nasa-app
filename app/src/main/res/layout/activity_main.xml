@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+        <TextView
+                android:layout_marginTop="40dp"
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_activity_title"
+                android:textStyle="bold"
+                android:textSize="36sp"
+                android:textAlignment="center"/>
+
+        <TextView
+                android:layout_marginTop="56dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:text="@string/main_activity_description"/>
+
+        <Button
+                android:id="@+id/button_curiosity"
+                android:layout_marginTop="16dp"
+                android:text="@string/curiosity_rover_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/button_opportunity"
+                android:layout_marginTop="16dp"
+                android:text="@string/opportunity_rover_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/button_spirit"
+                android:layout_marginTop="16dp"
+                android:text="@string/spirit_rover_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</layout>
