@@ -6,4 +6,5 @@
     <string name="opportunity_rover_name">Opportunity</string>
     <string name="spirit_rover_name">Spirit</string>
     <string name="error_request">Deu ruim aqui!!</string>
+    <string name="empty_list">Não há fotos nesse dia</string>
 </resources>

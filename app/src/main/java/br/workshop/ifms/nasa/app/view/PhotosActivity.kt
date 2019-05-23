@@ -95,7 +95,13 @@ class PhotosActivity : AppCompatActivity() {
             }
 
             override fun onResponse(call: Call<PhotoList>, response: Response<PhotoList>) {
-                adapter.setItems(response.body()?.photos ?: listOf())
+                with(response.body()?.photos ?: listOf()) {
+                    if (isEmpty()) {
+                        Toast.makeText(this@PhotosActivity, R.string.empty_list, Toast.LENGTH_LONG).show()
+                    } else {
+                        adapter.setItems(this)
+                    }
+                }
             }
 
         })
